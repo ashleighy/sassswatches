@@ -1,0 +1,132 @@
+@import 'pallet';
+
+@mixin btn(){
+  display: inline-block;
+  font-family: helvetica, sans-serif;
+  letter-spacing: .15em;
+  margin-bottom: .5em;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  @include btn();
+  @include border($black, 5px, 1px);
+  @include text( $black, 100, 14px);
+  // @include shadow( 0px, 2px, 0.2);
+  background: transparent ;
+}
+
+.btn:hover {
+  color: lighten($black,40%);
+  border: 1px solid lighten($black,40%);
+  transition: all 0.5s;
+}
+
+.btn-white,
+.btn-white:link,
+.btn-white:visited {
+  @include btn();
+  @include border($white, 5px, 1px);
+  @include text( $white, 100, 14px);
+  // @include shadow( 0px, 2px, 0.2);
+  background: transparent ;
+}
+
+.btn-white:hover {
+  color: darken($white,5%);
+  border: 1px solid darken($white,5%);
+  transition: all 0.5s;
+}
+
+
+.btn-red,
+.btn-red:link,
+.btn-red:visited {
+  @include btn();
+  @include border($darkred, 5px, 1px);
+  @include text($darkred, 100, 14px);
+  // @include shadow( 0px, 2px, 0.2);
+  background: $lightred ;
+}
+
+.btn-red:hover {
+  color:  $darkred;
+  background: $medred;
+  border: 1px solid $darkred;
+  transition: all 0.5s;
+}
+
+
+.btn-blue,
+.btn-blue:link,
+.btn-blue:visited {
+  @include btn();
+  @include border($darkblue, 5px, 1px);
+  @include text(darken($darkblue,10%), 100, 14px);
+  // @include shadow( 0px, 2px, 0.2);
+  background: $lightblue ;
+}
+
+.btn-blue:hover {
+  color:  darken($darkblue,20%);
+  background: $medblue;
+  border: 1px solid darken($darkblue,10%);
+  transition: all 0.5s;
+}
+
+
+.btn-green,
+.btn-green:link,
+.btn-green:visited {
+  @include btn();
+  @include border($darkgreen, 5px, 1px);
+  @include text($darkgreen, 100, 14px);
+  // @include shadow( 0px, 2px, 0.2);
+  background: $lightgreen ;
+}
+
+.btn-green:hover {
+  color: darken($darkgreen,20%);
+  border: 1px solid darken($darkgreen,20%);
+  transition: all 0.5s;
+  background: $medgreen;
+}
+
+.btn-yellow,
+.btn-yellow:link,
+.btn-yellow:visited {
+  @include btn();
+  @include border($darkyellow, 5px, 1px);
+  @include text(darken($darkyellow,10%), 100, 14px);
+  // @include shadow( 0px, 2px, 0.2);
+  background: $lightyellow ;
+}
+
+.btn-yellow:hover {
+  color: darken($darkyellow,20%);
+  border: 1px solid darken($darkyellow,20%);
+  background: $medyellow;
+  transition: all 0.5s;
+}
+
+.btn-sm{
+  font-size: 0.75em;
+}
+
+.btn-m{
+  font-size: 1.5em;
+}
+
+.btn-lg{
+  font-size: 2em;
+}
+
+.rev{
+  color: $lightgrey;
+  border-color: $lightgrey;
+}

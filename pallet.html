@@ -1,0 +1,165 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1" />
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <link href="pallet.css" rel="stylesheet">
+  <link href="pagestyle.css" rel="stylesheet">
+  <link href="bootstrapgrid.css" rel="stylesheet">
+  <title>Pallete</title>
+</head>
+<body>
+
+<div class="container">
+<div class="col-xs-12 col-md-12 col-lg-12">
+	<h2>SASSpressO</h2>
+	<p>SASS? Press? buttons.. yep.
+	Buttons are easily customised through the magic of mixins</p>
+</div>	
+
+<div class="col-xs-12 col-md-6 col-lg-6">
+<code>
+.btn, .btn:link, .btn:visited {<br>
+@include btn();<br>
+@include border($black, 5px, 1px);<br>
+@include text( $black, 100, 14px);<br>
+// @include shadow( 0px, 2px, 0.2);<br>
+background: transparent ;<br>
+}
+</code>
+</div>
+
+
+<div class="col-xs-12 col-md-6 col-lg-6">
+<p>		
+@include border : Color, border-radius, border-width.<br>
+@text : Colour, font-weight, font-size.<br> 	
+@shadow : x-axis, Y-axis, opacity.</p>
+</div>
+				
+<div class="col-xs-12 col-lg-12">	
+<p>
+	<div class="btn"> hey there </div>
+	<div class="btn-white"> hey there </div>
+	<br>
+	<div class="btn btn-red"> hey there </div>
+	<div class="btn btn-blue"> hey there </div>
+	<div class="btn btn-green"> hey there </div>
+	<div class="btn btn-yellow"> hey there </div>
+	<br>
+	<div class="btn btn-red rev"> hey there </div>
+	<div class="btn btn-blue rev"> hey there </div>
+	<div class="btn btn-green rev"> hey there </div>
+	<div class="btn btn-yellow rev"> hey there </div>
+<p></p>
+	<div class="btn btn-sm"> hey there </div>
+	<div class="btn"> hey there </div>
+	<div class="btn btn-m"> hey there </div>
+	<div class="btn btn-lg"> hey there </div>
+
+</div><!-- buttons -->
+
+
+<div class="col-xs-12 col-lg-12">	
+
+<h2>SASSWATCH</h2>
+<p>Stop searching for hex codes and ride the rainbow. These colours are designed to be used with the SASSpressO buttons.</p>
+
+	<div class="swatches">
+
+<div class="holder white">
+	<div class="swatch white">
+		<div class="heading">		<h2>#COLOUR</h2>
+
+		Colour variables for SASS
+		</div>
+	</div>
+	<div class="swatch white">
+		<div class="inner"><span>#FFFFFF</span>$White</div>
+	</div>
+	<div class="swatch black">
+		<div class="inner rev"><span>#3b3a36</span>$black</div>
+	</div>
+</div>
+
+<div class="holder white">	
+	<div class="swatch lightgrey">
+		<div class="inner"><span>#EEEEEE</span>$lightgrey</div>
+	</div>
+	<div class="swatch medgrey">
+		<div class="inner"><span>#D2D7D3</span>$medgrey</div>
+	</div>
+	<div class="swatch darkgrey">
+		<div class="inner"><span>#757D75</span>$darkgrey</div>
+	</div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightred"></div>
+<div class="swatch midred"></div>
+<div class="swatch darkred"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightorange"></div>
+<div class="swatch medorange"></div>
+<div class="swatch darkorange"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightyellow"></div>
+<div class="swatch medyellow"></div>
+<div class="swatch darkyellow"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightgreen"></div>
+<div class="swatch medgreen"></div>
+<div class="swatch darkgreen"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightaqua"></div>
+<div class="swatch medaqua"></div>
+<div class="swatch darkaqua"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightblue"></div>
+<div class="swatch medblue"></div>
+<div class="swatch darkblue"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightpurple"></div>
+<div class="swatch medpurple"></div>
+<div class="swatch darkpurple"></div>
+</div>
+
+<div class="holder white">
+<div class="swatch lightpink"></div>
+<div class="swatch medpink"></div>
+<div class="swatch darkpink"></div>
+</div>
+
+</div> <!-- swatches -->
+
+</div> <!-- col 12 -->
+</div> <!-- container -->
+
+
+
+
+
+<!-- <div class=""></div>
+<div class=""></div>
+<div class=""></div>
+<div class=""></div>
+<div class=""></div> -->
+
+
+</body>
+</html>
+
+

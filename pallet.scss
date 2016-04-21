@@ -1,0 +1,160 @@
+$white: #FFFFFF;
+$lightgrey: #EEEEEE;
+$medgrey: #D2D7D3;
+$darkgrey: #757D75;
+$black: #3b3a36;
+
+$lightred: #F67F7B;
+$medred: #f46863;
+$darkred: #DA4453;
+
+$lightorange: #FFB94E;
+$medorange: #FAA945;
+$darkorange: #f99213;
+
+$lightpink: #FCDDDE;
+$medpink: #fAC6C7;
+$darkpink: #f8afb0;
+
+$lightyellow: #FAE596;
+$medyellow: #F8D965;
+$darkyellow: #f6cd34; 
+
+$lightgreen: #B3E061;
+$medgreen: #8CC152;
+$darkgreen: #72a53b;
+
+$lightaqua: #6ce3c6;
+$medaqua: #2cd7ad;
+$darkaqua: #24BFA0;
+
+$lightblue: #81CFE0;
+$medblue:#58bfd6;
+$darkblue: #52B3D9;
+
+$lightpurple: #BE90D4;
+$medpurple: #b37ecd;
+$darkpurple: #9B59B6;
+
+@mixin border($color, $radius, $px){
+ border-color: $color;
+ border-style: solid;
+ border-radius: $radius;
+ border-width: $px;
+}
+
+@mixin shadow($xpx, $ypx, $opacity){
+	box-shadow: $xpx $ypx rgba(0,0,0,$opacity); 		
+}
+
+@mixin border-side( $side, $border-style){
+	border-#{$side}: $border-style; 		
+}
+
+@mixin text($color, $weight, $size){
+	color: $color;
+	font-weight: $weight;
+	font-size: $size;
+}
+
+
+.white{
+	background:$white;
+}
+
+.lightgrey{
+	background:$lightgrey;
+}
+
+.medgrey{
+	background:$medgrey;
+}
+
+.darkgrey{
+	background:$darkgrey;
+}
+
+.black{
+	background: $black;
+}
+
+.lightred{
+	background:$lightred;
+}
+.midred{
+	background:$medred;
+}
+.darkred{
+	background:$darkred;
+}
+
+.lightpink{
+	background:$lightpink;
+}
+.medpink{
+	background:$medpink;
+}
+.darkpink{
+	background:$darkpink;
+}
+
+.lightpurple{
+	background:$lightpurple;
+}
+.medpurple{
+	background:$medpurple;
+}
+.darkpurple{
+	background:$darkpurple;
+}
+
+.lightblue{
+	background:$lightblue;
+}
+.medblue{
+	background:$medblue;
+}
+.darkblue{
+	background:$darkblue;
+}
+
+.lightaqua{
+	background:$lightaqua;
+}
+.medaqua{
+	background:$medaqua;
+}
+.darkaqua{
+	background:$darkaqua;
+}
+
+.lightgreen{
+	background:$lightgreen;
+}
+.medgreen{
+	background:$medgreen;
+}
+.darkgreen{
+	background:$darkgreen;
+}
+
+.lightyellow{
+	background:$lightyellow;
+}
+.medyellow{
+	background:$medyellow;
+}
+.darkyellow{
+	background:$darkyellow;
+}
+
+.lightorange{
+	background:$lightorange;
+}
+.medorange{
+	background:$medorange;
+}
+.darkorange{
+	background:$darkorange;
+}
+

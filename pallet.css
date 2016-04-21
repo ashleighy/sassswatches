@@ -1,0 +1,88 @@
+.white {
+  background: #FFFFFF; }
+
+.lightgrey {
+  background: #EEEEEE; }
+
+.medgrey {
+  background: #D2D7D3; }
+
+.darkgrey {
+  background: #757D75; }
+
+.black {
+  background: #3b3a36; }
+
+.lightred {
+  background: #F67F7B; }
+
+.midred {
+  background: #f46863; }
+
+.darkred {
+  background: #DA4453; }
+
+.lightpink {
+  background: #FCDDDE; }
+
+.medpink {
+  background: #fAC6C7; }
+
+.darkpink {
+  background: #f8afb0; }
+
+.lightpurple {
+  background: #BE90D4; }
+
+.medpurple {
+  background: #b37ecd; }
+
+.darkpurple {
+  background: #9B59B6; }
+
+.lightblue {
+  background: #81CFE0; }
+
+.medblue {
+  background: #58bfd6; }
+
+.darkblue {
+  background: #52B3D9; }
+
+.lightaqua {
+  background: #6ce3c6; }
+
+.medaqua {
+  background: #2cd7ad; }
+
+.darkaqua {
+  background: #24BFA0; }
+
+.lightgreen {
+  background: #B3E061; }
+
+.medgreen {
+  background: #8CC152; }
+
+.darkgreen {
+  background: #72a53b; }
+
+.lightyellow {
+  background: #FAE596; }
+
+.medyellow {
+  background: #F8D965; }
+
+.darkyellow {
+  background: #f6cd34; }
+
+.lightorange {
+  background: #FFB94E; }
+
+.medorange {
+  background: #FAA945; }
+
+.darkorange {
+  background: #f99213; }
+
+/*# sourceMappingURL=pallet.css.map */
